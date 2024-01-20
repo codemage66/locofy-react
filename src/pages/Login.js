@@ -89,8 +89,8 @@ const Login = () => {
             </div>
           </div>
         </div>
-        <button className="cursor-pointer [border:none] py-[18px] pr-5 pl-[21px] bg-brand-brand-primary self-stretch rounded-xl shadow-[0px_6px_30px_rgba(42,_55,_119,_0.06)] overflow-hidden flex flex-row items-center justify-center gap-[8px]">
-        <Link to='/dashboard' style={{ textDecoration: 'none', color: 'white' }}>
+        <Link to='/dashboard' style={{ textDecoration: 'none', color: 'white', width: '100%' }}>
+        <button className="w-full cursor-pointer [border:none] py-[18px] pr-5 pl-[21px] bg-brand-brand-primary self-stretch rounded-xl shadow-[0px_6px_30px_rgba(42,_55,_119,_0.06)] overflow-hidden flex flex-row items-center justify-center gap-[8px]">
           <img
             className="h-5 w-5 relative overflow-hidden shrink-0 hidden min-h-[20px]"
             alt=""
@@ -102,8 +102,8 @@ const Login = () => {
             className="h-5 w-5 relative overflow-hidden shrink-0 hidden min-h-[20px]"
             alt=""
           />
-          </Link>
         </button>
+        </Link>
       </form>
     </div>
   );
