@@ -90,17 +90,19 @@ const Login = () => {
           </div>
         </div>
         <button className="cursor-pointer [border:none] py-[18px] pr-5 pl-[21px] bg-brand-brand-primary self-stretch rounded-xl shadow-[0px_6px_30px_rgba(42,_55,_119,_0.06)] overflow-hidden flex flex-row items-center justify-center gap-[8px]">
+        <Link to='/dashboard' style={{ textDecoration: 'none', color: 'white' }}>
           <img
             className="h-5 w-5 relative overflow-hidden shrink-0 hidden min-h-[20px]"
             alt=""
           />
           <div className="relative text-sm leading-[20px] font-semibold font-text-xs-medium text-base-white text-left">
-            <Link to='/dashboard' style={{ textDecoration: 'none', color: 'white' }}>Login</Link>
+            Login
           </div>
           <img
             className="h-5 w-5 relative overflow-hidden shrink-0 hidden min-h-[20px]"
             alt=""
           />
+          </Link>
         </button>
       </form>
     </div>
